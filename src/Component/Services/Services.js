@@ -13,7 +13,7 @@ const Services = () => {
     return (  
 
         <div> <br />
-            <h1 className="font-weight-bold"> Here is Our Course List</h1> <br />
+            <h1 className="font-weight-bold">Find Your Course and Get Enrolled</h1> <br />
 
             <div>
             <Row xs={1} md={3} className="g-4">
