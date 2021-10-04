@@ -21,7 +21,7 @@ const Review = () => {
            }
             
             </Row>
-             </div>
+             </div> <br /> <br />
         </div>
         
     );

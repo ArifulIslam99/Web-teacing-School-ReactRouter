@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Card, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const CourseList = (props) => { 
     const {title, img, description, instructor, price} = props.course;
@@ -16,7 +17,9 @@ const CourseList = (props) => {
               {description.slice(0,150)}
             </Card.Text>
             <h4>Course Fee: {price} BDT</h4> <br />
-            <Button variant="warning" >Enroll Now</Button>
+              <Link to="/home">
+              <Button variant="warning" >Enroll Now</Button>
+              </Link>
           </Card.Body>
         </Card>
       </Col>
