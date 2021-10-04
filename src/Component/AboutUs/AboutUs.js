@@ -11,7 +11,7 @@ const AboutUs = () => {
             <address>Address : 475, Jakson Villa , Gulshan-2, Dhaka</address> 
             <p> Founded : 2017</p>
             <p> Founder : Islam Md Ariful</p>  
-            <p> Awards : Best Online Academic Skill 2020 <br /> Jhankar Mahbub Memorial Award 2019
+            <p> Awards : Best Online Academic Skill 2020 <br /> JM Memorial Award 2019 
                       
             </p>
         </div>
