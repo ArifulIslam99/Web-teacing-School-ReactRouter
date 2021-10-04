@@ -1,0 +1,29 @@
+import React from 'react';
+import { Button, Card, Col } from 'react-bootstrap';
+
+const CourseList = (props) => { 
+    const {title, img, description, instructor, price} = props.course;
+    return ( 
+
+          
+           <Col>
+        <Card style={{alignItems:"center"}}>
+          <Card.Img style={{width: '200px',height: '200px',borderRadius:'50%'}} variant="top" src={img} />
+          <Card.Body>
+            <Card.Title>{title} </Card.Title>
+            <p>Instructor: {instructor} </p>
+            <Card.Text>
+              {description.slice(0,150)}
+            </Card.Text>
+            <h4>Course Fee: {price} BDT</h4> <br />
+            <Button variant="warning" >Enroll Now</Button>
+          </Card.Body>
+        </Card>
+      </Col>
+         
+        
+        
+    );
+};
+
+export default CourseList;
