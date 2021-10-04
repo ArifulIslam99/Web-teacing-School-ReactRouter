@@ -9,7 +9,7 @@ const ReviewList = (props) => {
 
          
         <Col>
-        <Card style={{alignItems:"center", width: '80%', marginLeft: '10px'}}>
+        <Card style={{alignItems:"center", width: '70%', marginLeft: '60px'}}>
          
           <Card.Body>
           <Card.Img style={{width: '200px',height: '200px',borderRadius:'50%'}} variant="top" src={img} />

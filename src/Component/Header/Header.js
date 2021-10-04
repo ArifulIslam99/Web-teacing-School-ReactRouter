@@ -9,18 +9,18 @@ const Header = () => {
         color: "red"
       };
     return (
-        <div> 
+        <div class="topnav"> 
 
         
            <div  className="Nav">
            <NavLink activeStyle={activeStyle} className="link" to='/home'>Home</NavLink>
         <NavLink activeStyle={activeStyle} className="link" to='/services'>Services</NavLink>
         <NavLink activeStyle={activeStyle} className="link" to='review'>Feedback</NavLink>
-        <NavLink activeStyle={activeStyle} className="link" to='/aboutus'>About Us</NavLink>
-           </div> 
-           
-         
-        
+        <NavLink activeStyle={activeStyle} className="link" to='/aboutus'>About Us</NavLink>  
+       
+    
+        </div> 
+
     </div>
     );
 };

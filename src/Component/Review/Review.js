@@ -15,7 +15,7 @@ const Review = () => {
         <div> <br />
              <h1 className="font-weight-bold">What Our Student says!</h1> <br />
              <div>
-             <Row xs={1} md={3} className="g-4 ">
+             <Row xs={1} md={3} className="g-2 ">
            {
              reviews.map(review => <ReviewList key={review.name}  review={review}></ReviewList>)
            }
