@@ -8,7 +8,7 @@ const CourseList = (props) => {
 
           
            <Col>
-        <Card style={{alignItems:"center"}}>
+        <Card style={{alignItems:"center", width: '80%', marginLeft: '10px'}} >
           <Card.Img style={{width: '200px',height: '200px',borderRadius:'50%'}} variant="top" src={img} />
           <Card.Body>
             <Card.Title>{title} </Card.Title>
@@ -17,7 +17,7 @@ const CourseList = (props) => {
               {description.slice(0,150)}
             </Card.Text>
             <h4>Course Fee: {price} BDT</h4> <br />
-              <Link to="/home">
+              <Link to="">
               <Button variant="warning" >Enroll Now</Button>
               </Link>
           </Card.Body>
