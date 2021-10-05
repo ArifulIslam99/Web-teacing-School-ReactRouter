@@ -1,18 +1,19 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 import Rating from 'react-rating';
+import './ReviewList.css'
 
 const ReviewList = (props) => {
 
     const {name, img, rating, comment} = props.review;
     return ( 
 
-         
+         // This is Review List component connect to Review page. For Every Review There will be a card in a grid and then it will load the data from json file 
         <Col>
-        <Card style={{alignItems:"center", width: '70%', marginLeft: '60px'}}>
+        <Card className='card-style' >
          
           <Card.Body>
-          <Card.Img style={{width: '200px',height: '200px',borderRadius:'50%'}} variant="top" src={img} />
+          <Card.Img className="card-image"  variant="top" src={img} />
             <Card.Title>Student Name: {name}</Card.Title>
             <Rating  
                

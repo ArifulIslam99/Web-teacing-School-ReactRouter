@@ -5,11 +5,14 @@ import image1 from '../../images/img1.jpg'
 import image2 from '../../images/img2.jpg'
 import image3 from '../../images/img3.jpg'
 import image4 from '../../images/img4.jpg'
-
+ 
+// Home Page Designing 
 const Home = () => {
     return (
         <div>     
-        <div>
+        <div> 
+
+        {/* Image Slider in the top of Home -Used Bootstrap Carousel  */}
         <Carousel  className="  mx-auto w-100 h-75">
   <Carousel.Item>
     <img
@@ -48,6 +51,8 @@ const Home = () => {
   </Carousel.Item>
 </Carousel> <br /> <br />
         </div> 
+
+        {/* Popular Courses List -Used BootStrap Card */}
          
          <div> 
            <br /> 
@@ -108,8 +113,10 @@ const Home = () => {
   </Card>
 </CardGroup> <br /> <br />
          </div>
-         <div >
-           <div>
+         <div > 
+
+           {/* Quotes of Legend and A button redirect to Course Page */}
+           <div> 
                <blockquote ><h2>"An investment in knowledge pays the best interest"</h2></blockquote>
                <p>-Benjamin Franklin</p>
                <Link to='/courses'>

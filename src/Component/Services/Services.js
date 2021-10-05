@@ -11,7 +11,7 @@ const Services = () => {
         .then()
     },[])
     return (  
-
+         // Course  Page. Courses load from package. json file and showed via CourseList Component
         <div> <br />
             <h1 className="font-weight-bold">Find Your Course and Get Enrolled</h1> <br />
 

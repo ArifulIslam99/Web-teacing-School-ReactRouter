@@ -11,11 +11,11 @@ const Review = () => {
         .then(data=> setReviews(data))
     })
     return (
-
+            // Students Review Section Page. Reviews load from package2 json file and showed via reviewList Component
         <div> <br />
              <h1 className="font-weight-bold">What Our Student says!</h1> <br />
              <div>
-             <Row xs={1} md={3} className="g-2 ">
+             <Row xs={1} md={3} className="mx-auto ">
            {
              reviews.map(review => <ReviewList key={review.name}  review={review}></ReviewList>)
            }

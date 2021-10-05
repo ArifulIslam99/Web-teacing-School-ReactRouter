@@ -11,7 +11,7 @@ const Header = () => {
     return (
         <div class="topnav"> 
 
-        
+           {/* This is Header Page. In header there is only the Navbar. For every nav click the route will be change. */}
            <div  className="Nav">
            <NavLink activeStyle={activeStyle} className="link" to='/home'>Home</NavLink>
         <NavLink activeStyle={activeStyle} className="link" to='/courses'>Courses</NavLink>

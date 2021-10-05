@@ -1,7 +1,9 @@
 import React from 'react';
 
 const AboutUs = () => {
-    return (
+    return ( 
+        // About Us Page Desigining. A picture on Top and bottom there is info about the Websites.
+        
         <div>
              <div> <br />
             <img style={{borderRadius:"50%", width: "20%"}} src="https://blog.stoneriverelearning.com/wp-content/uploads/2017/06/23054.jpg" alt="" />

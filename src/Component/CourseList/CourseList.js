@@ -7,7 +7,7 @@ const CourseList = (props) => {
     const {title, img, description, instructor, price} = props.course;
     return ( 
 
-          
+          // This is Course List component connect to services page. For Every Course Information There will be a card in a grid and then it will load the data from json file  
            <Col>
         <Card className="card-style" style={{}} >
           <Card.Img className="card-image img-fluid"  variant="top" src={img} />
