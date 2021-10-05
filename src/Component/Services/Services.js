@@ -16,7 +16,7 @@ const Services = () => {
             <h1 className="font-weight-bold">Find Your Course and Get Enrolled</h1> <br />
 
             <div>
-            <Row xs={1} md={3} className="g-2">
+            <Row xs={1} md={3} className="mx-auto">
            {
          courses.map(course => <CourseList key={course.id} course={course}></CourseList> )
            }

@@ -112,7 +112,7 @@ const Home = () => {
            <div>
                <blockquote ><h2>"An investment in knowledge pays the best interest"</h2></blockquote>
                <p>-Benjamin Franklin</p>
-               <Link to='/services'>
+               <Link to='/courses'>
                <Button variant="success" className="mb-5 font-weight-bold">Enroll Today</Button> 
                </Link>
                

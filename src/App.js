@@ -26,7 +26,7 @@ function App() {
                 <Route path='/aboutus'>
                   <AboutUs></AboutUs>
                 </Route>
-                <Route path='/services'>
+                <Route path='/courses'>
                   <Services></Services>
                 </Route>
                 <Route path='/review'>
